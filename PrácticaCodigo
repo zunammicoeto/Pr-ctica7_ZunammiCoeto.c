@@ -1,0 +1,29 @@
+//Aqui escribimos la librería 
+//Sección de librerías que se usara en el código 
+#include<stdio.h>
+#include<math.h>
+
+//declaración de variables 
+float area;
+float radio;
+float resultado;
+const double PI = 3.141592;
+
+//declaración de funciones 
+int main(){
+	/*
+	Bloque de instrucciones 
+	*/
+	
+	//declaración de variavles locales
+	
+	float radio;
+	
+	printf("\n Ingrese el valor del radio:");
+	scanf("%f", &radio);
+	
+	area = PI * pow( radio, 2);
+	
+	printf("\n El % de la circunferencia es: %.2f", 160, area);
+	
+	return 0;
